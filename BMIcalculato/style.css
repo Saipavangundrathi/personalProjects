@@ -1,0 +1,48 @@
+&*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFF0F5;
+}
+.in1,.in2{
+    font-size: 1.3rem;
+}
+#heading{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Salsa', cursive;
+    font-size: 44px;
+    
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    max-width: 800px;
+    background-color: #F9966B;
+    margin: 40px  auto ;
+    border-radius: 8px;
+}
+
+#btn{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+#result{
+    margin: 16px;
+    font-size: 17px;
+
+}
+
+
+
