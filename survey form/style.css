@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-size: 19px;
+ 
+}
+.main-container{
+    background: linear-gradient(to right,   #186A3B, #239B56);
+    height: 100%;
+    max-width: 600px;
+    margin-top: 15px;
+    
+    margin: auto; /* Center the element horizontally */
+        
+    padding: 30px;
+   
+    
+    
+}
+#title{
+    text-align: center;
+}
+#description{
+    text-align:center ;
+}
+.header{
+    margin-top: 10px;
+}
+#survey-form{
+    text-align: left;
+}
+#name, #email, #number, #dropdown, #Feedbacks{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+}
+#submit{
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #2874A6;
+    color: #fff;
+}

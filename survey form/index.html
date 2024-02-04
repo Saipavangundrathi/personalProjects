@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header"><h1 id="title">University of Alabama at Birmingham Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve Our site
+        </p></div>
+    <div class="main-container">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label><br>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+            <label for="email" id="email-label">Email</label><br>
+            <input type="email" id="email" placeholder="Enter your email" required><br>
+            <label for="number" id="number-label">Age(optional)</label><br>
+            <input type="number" id="number" placeholder="Age" min="1" max="100" required><br>
+            <label for="dropdown">Which option describes your current role?</label><br>
+            <select name="dropdown" id="dropdown" >
+                <option disabled selected value="">select a current role </option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time learner">Full Time learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+            <p>Would you recommend UAB to a friend?</p>
+            <input type="radio" id="radio-in"  value="Definitely">
+            <label for="radio-in">Definitely</label><br>
+            <input type="radio" id="radio-in"  value="May be">
+            <label for="radio-in">May be</label><br>
+            <input type="radio" id="radio-in" value="Not sure" >
+            <label for="radio-in">Not sure</label><br>
+            <p>Which Department you belong</p>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Computer science</label><br>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Electrical and computer Engineering</label><br>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Public health</label><br>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Bussiness</label><br>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Dentistry</label><br>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Medicine</label><br>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Optimology</label><br>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Psychology</label><br>
+            <input type="checkbox" id="checkbox-in">
+            <label for="checkbox-in">Theater</label><br>
+            <p> Any Feedbacks for Us</p>
+            <textarea id="Feedbacks" name="comment" rows="4" placeholder="Enter your comment here..."></textarea>
+            
+            
+        </form>
+        <button type="submit" id="submit">Submit</button>
+    </div>
+</body>
+</html>
